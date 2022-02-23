@@ -15,7 +15,7 @@ class Profile extends StatelessWidget {
       ),
       child: Column(
         children: [
-          CircleAvatar(),
+          CircleAvatar(backgroundImage: AssetImage("assets/kameshwar.jpg"),),
           SizedBox(
             height: 10,
           ),
